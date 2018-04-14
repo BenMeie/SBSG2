@@ -843,6 +843,8 @@ scoreboard players set @e drop5 0
 scoreboard players set @e drop6 0
 scoreboard players set @e drop7 0
 scoreboard players set @a Time 0
+scoreboard players tag @a remove spec1
+scoreboard players tag @a remove spec2
 gamemode 2 @a[score_mode_min=0,score_mode=0]
 gamemode 0 @a[score_mode_min=1,score_mode=1]
 gamemode 2 @a[score_mode_min=2,score_mode=3]
